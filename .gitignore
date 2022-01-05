@@ -31,8 +31,7 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
-# Compiled binary addons (https://nodejs.org/api/addons.html)
-build/Release
+# Compiled binary addons (https://nodejs.org/api/addons.html)/Release
 
 # Dependency directories
 node_modules/
@@ -62,14 +61,14 @@ typings/
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 
-# next.js build output
+# next.js output
 .next
 
 # nuxt.js build output
 .nuxt
 
 # Nuxt generate
-dist
+
 
 # vuepress build output
 .vuepress/dist
