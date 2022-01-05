@@ -14,6 +14,12 @@
       <v-container fluid>
         <h1>Bonjour !</h1>
         <p>Test</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis,
+          inventore ea, nemo provident officia libero atque magni deleniti
+          illum, nisi sit totam eaque dolorum. Quod magni modi tempora rerum
+          quidem!
+        </p>
       </v-container>
     </v-main>
   </v-app>
