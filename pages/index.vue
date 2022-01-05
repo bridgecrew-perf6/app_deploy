@@ -13,6 +13,7 @@
     <v-main>
       <v-container fluid>
         <h1>Bonjour !</h1>
+        <p>Test</p>
       </v-container>
     </v-main>
   </v-app>
