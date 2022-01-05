@@ -22,17 +22,8 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@main
       - name: Deploy to Firebase
-        uses: FirebaseExtended/action-hosting-deploy@v0
-        with:
-          repoToken: "${{ secrets.GITHUB_TOKEN }}"
-          projectId: appdeploy-486ce
-# jobs:
-#   main:
-#     name: Deploy to Firebase
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v2
-#       - uses: lowply/deploy-firebase@v0.0.5
-#         env:
-#           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-#           FIREBASE_PROJECT: appdeploy-486ce
+        - uses: lowply/deploy-firebase@v0.0.5
+          env:
+            FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+            FIREBASE_PROJECT: appdeploy-486ce
+
