@@ -1,5 +1,5 @@
-name: Nuxt App Deploy w/ PR 
-on: pull_request
-jobs: 
-  
-
+name: Nuxt App Deploy w/ PR
+on:
+  pull_request:
+    types: closed
+jobs:
