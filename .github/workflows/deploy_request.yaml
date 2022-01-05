@@ -1,20 +1,20 @@
 name: Nuxt App Deploy w/ PR
 on:
   pull_request:
-    branches: 
-    - main 
+    branches:
+      - main
 jobs:
-  pr_job: 
+  pr_job:
     runs-on: ubuntu-latest
-      steps:
-        - name: Checkout Repo
-          uses: actions/checkout@main
-        - name: Install Dependencies
-          run: npm install
-        - name: Build
-          run: npm run build
-        - name: Archive Production Artifact
-          uses: actions/upload-artifact@main
-          with:
-            name: dist
-            path: dist
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@main
+      - name: Install Dependencies
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: Archive Production Artifact
+        uses: actions/upload-artifact@main
+        with:
+          name: dist
+          path: dist
