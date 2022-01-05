@@ -1,4 +1,4 @@
-name: Deploy Firebase
+name: Deploy Nuxt on Firebase
 on:
   push:
     branches:
